@@ -11,7 +11,7 @@ import {
 } from "./videoHubData";
 
 const STORAGE_PREFIX = "txe.campaignStudio.advisorBoard.v6";
-const SEARCH_CTA = "https://careers.dukehealth.org/search-jobs";
+const SEARCH_CTA = "https://careers.onehealth.org/search-jobs";
 
 /**
  * Distinct campaign-generation prompts per angle.
@@ -53,8 +53,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Innovation, Growth & Fresh Perspectives",
     description: "Open the year with a forward-looking employer brand message rooted in growth and fresh perspectives.",
     contentTemplates: [
-      "Happy New Year from One Health. This year we're investing in fresh perspectives, continuous learning, and careers that help our teams grow while serving patients across North Carolina. Explore roles that start with purpose: careers.dukehealth.org",
-      "A new year, a new chapter. At One Health, growth isn't a resolution — it's how we care. Discover where your next step could lead: careers.dukehealth.org",
+      "Happy New Year from One Health. This year we're investing in fresh perspectives, continuous learning, and careers that help our teams grow while serving patients across North Carolina. Explore roles that start with purpose: careers.onehealth.org",
+      "A new year, a new chapter. At One Health, growth isn't a resolution — it's how we care. Discover where your next step could lead: careers.onehealth.org",
     ],
   },
   {
@@ -66,8 +66,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Mentorship & Development",
     description: "Highlight mentorship culture and how experienced clinicians develop the next generation.",
     contentTemplates: [
-      "Great careers are built with great mentors. This National Mentoring Month, we're celebrating the One Health leaders who invest in the next generation of caregivers. Grow with us: careers.dukehealth.org",
-      "Behind every confident new nurse is a mentor who believed in them. Explore a place where development never stops: careers.dukehealth.org",
+      "Great careers are built with great mentors. This National Mentoring Month, we're celebrating the One Health leaders who invest in the next generation of caregivers. Grow with us: careers.onehealth.org",
+      "Behind every confident new nurse is a mentor who believed in them. Explore a place where development never stops: careers.onehealth.org",
     ],
   },
   {
@@ -79,8 +79,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Diversity, Equity & Inclusion",
     description: "Honor Dr. King's legacy by connecting equity values to everyday care and workplace belonging.",
     contentTemplates: [
-      "On Martin Luther King Jr. Day, One Health recommits to equity, inclusion, and care that reflects every community we serve. Join a team where belonging and opportunity grow together: careers.dukehealth.org",
-      "Dr. King reminded us that the time is always right to do what is right. At One Health, that means equitable care and an inclusive workplace, every day: careers.dukehealth.org",
+      "On Martin Luther King Jr. Day, One Health recommits to equity, inclusion, and care that reflects every community we serve. Join a team where belonging and opportunity grow together: careers.onehealth.org",
+      "Dr. King reminded us that the time is always right to do what is right. At One Health, that means equitable care and an inclusive workplace, every day: careers.onehealth.org",
     ],
   },
   {
@@ -92,8 +92,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Community, Honor & Equal Opportunity",
     description: "Celebrate community, honor Black excellence, and highlight equal opportunity at One Health.",
     contentTemplates: [
-      "During Black History Month, we celebrate the caregivers, researchers, and leaders who strengthen One Health every day. Community, honor, and equal opportunity guide how we hire and how we care: careers.dukehealth.org",
-      "Excellence has many faces. This Black History Month, we honor the Black professionals shaping the future of care at One Health: careers.dukehealth.org",
+      "During Black History Month, we celebrate the caregivers, researchers, and leaders who strengthen One Health every day. Community, honor, and equal opportunity guide how we hire and how we care: careers.onehealth.org",
+      "Excellence has many faces. This Black History Month, we honor the Black professionals shaping the future of care at One Health: careers.onehealth.org",
     ],
   },
   {
@@ -105,8 +105,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Health & Wellbeing",
     description: "Tie heart-health awareness to One Health's mission and cardiovascular care teams.",
     contentTemplates: [
-      "Today we go red for heart health. One Health's cardiovascular teams protect hearts every day — and we're hiring the people who make that possible: careers.dukehealth.org",
-      "Heart health starts with the people who care for it. Join the One Health teams keeping our communities strong: careers.dukehealth.org",
+      "Today we go red for heart health. One Health's cardiovascular teams protect hearts every day — and we're hiring the people who make that possible: careers.onehealth.org",
+      "Heart health starts with the people who care for it. Join the One Health teams keeping our communities strong: careers.onehealth.org",
     ],
   },
   {
@@ -118,8 +118,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Kindness & Compassion",
     description: "Spotlight everyday compassion shown by care teams.",
     contentTemplates: [
-      "Kindness is a clinical skill too. On Random Acts of Kindness Day, we're grateful for the small moments that make One Health feel like family — for patients and teammates alike: careers.dukehealth.org",
-      "A warm hand, a reassuring word, a coffee for a colleague. Kindness defines care at One Health. Come be part of it: careers.dukehealth.org",
+      "Kindness is a clinical skill too. On Random Acts of Kindness Day, we're grateful for the small moments that make One Health feel like family — for patients and teammates alike: careers.onehealth.org",
+      "A warm hand, a reassuring word, a coffee for a colleague. Kindness defines care at One Health. Come be part of it: careers.onehealth.org",
     ],
   },
   {
@@ -131,8 +131,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Equity & Representation",
     description: "Celebrate the women leading care, research, and operations.",
     contentTemplates: [
-      "This Women's History Month, One Health celebrates the women advancing care, discovery, and leadership across our health system. Build your career with us: careers.dukehealth.org",
-      "From the bedside to the boardroom, women lead at One Health. Explore where your leadership belongs: careers.dukehealth.org",
+      "This Women's History Month, One Health celebrates the women advancing care, discovery, and leadership across our health system. Build your career with us: careers.onehealth.org",
+      "From the bedside to the boardroom, women lead at One Health. Explore where your leadership belongs: careers.onehealth.org",
     ],
   },
   {
@@ -144,8 +144,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "People-First Culture & Executive Gratitude",
     description: "Spotlight people-first culture and gratitude for the teams behind every patient interaction.",
     contentTemplates: [
-      "Today we celebrate the people of One Health. From bedside to research labs, your dedication defines our culture. Thank you for putting patients and each other first: careers.dukehealth.org",
-      "Our people are our purpose. On Employee Appreciation Day, thank you to every teammate who makes One Health extraordinary: careers.dukehealth.org",
+      "Today we celebrate the people of One Health. From bedside to research labs, your dedication defines our culture. Thank you for putting patients and each other first: careers.onehealth.org",
+      "Our people are our purpose. On Employee Appreciation Day, thank you to every teammate who makes One Health extraordinary: careers.onehealth.org",
     ],
   },
   {
@@ -157,8 +157,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Equity & Representation",
     description: "Global recognition of women's achievements in healthcare.",
     contentTemplates: [
-      "On International Women's Day, we honor the women who drive One Health forward — in nursing, medicine, research, and leadership. Join them: careers.dukehealth.org",
-      "Equity isn't a moment, it's a mission. This International Women's Day, discover a workplace where women thrive: careers.dukehealth.org",
+      "On International Women's Day, we honor the women who drive One Health forward — in nursing, medicine, research, and leadership. Join them: careers.onehealth.org",
+      "Equity isn't a moment, it's a mission. This International Women's Day, discover a workplace where women thrive: careers.onehealth.org",
     ],
   },
   {
@@ -170,8 +170,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Clinical Excellence & Gratitude",
     description: "Recognize physicians and the culture that supports them.",
     contentTemplates: [
-      "On National Doctors' Day, thank you to the physicians whose expertise and compassion define One Health. Practice where excellence is the standard: careers.dukehealth.org",
-      "Behind every breakthrough is a physician who never stopped caring. Celebrate Doctors' Day with One Health: careers.dukehealth.org",
+      "On National Doctors' Day, thank you to the physicians whose expertise and compassion define One Health. Practice where excellence is the standard: careers.onehealth.org",
+      "Behind every breakthrough is a physician who never stopped caring. Celebrate Doctors' Day with One Health: careers.onehealth.org",
     ],
   },
   {
@@ -183,8 +183,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Health & Wellbeing",
     description: "Connect global health awareness to One Health's mission.",
     contentTemplates: [
-      "This World Health Day, One Health reaffirms our commitment to healthier communities — and to the teams that make it happen. Join the mission: careers.dukehealth.org",
-      "Health is a right, not a privilege. Help One Health advance care for everyone: careers.dukehealth.org",
+      "This World Health Day, One Health reaffirms our commitment to healthier communities — and to the teams that make it happen. Join the mission: careers.onehealth.org",
+      "Health is a right, not a privilege. Help One Health advance care for everyone: careers.onehealth.org",
     ],
   },
   {
@@ -196,8 +196,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Corporate Citizenship",
     description: "Highlight volunteerism and community service by staff.",
     contentTemplates: [
-      "This National Volunteer Week, we celebrate One Health teammates who give their time to strengthen our communities. Care beyond the shift: careers.dukehealth.org",
-      "Service is in our DNA. Meet a team that shows up for the community — and for each other: careers.dukehealth.org",
+      "This National Volunteer Week, we celebrate One Health teammates who give their time to strengthen our communities. Care beyond the shift: careers.onehealth.org",
+      "Service is in our DNA. Meet a team that shows up for the community — and for each other: careers.onehealth.org",
     ],
   },
   {
@@ -209,8 +209,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Sustainability & Responsibility",
     description: "Connect sustainability and responsible operations to brand and community impact.",
     contentTemplates: [
-      "This Earth Day, One Health is focused on responsible care for people and planet — from greener campuses to smarter clinical operations. Build a career with purpose beyond the shift: careers.dukehealth.org",
-      "Healthy planet, healthy people. Join the One Health teams building a more sustainable future for care: careers.dukehealth.org",
+      "This Earth Day, One Health is focused on responsible care for people and planet — from greener campuses to smarter clinical operations. Build a career with purpose beyond the shift: careers.onehealth.org",
+      "Healthy planet, healthy people. Join the One Health teams building a more sustainable future for care: careers.onehealth.org",
     ],
   },
   {
@@ -222,8 +222,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Team Appreciation",
     description: "Recognize the administrative teams that keep care running.",
     contentTemplates: [
-      "Care doesn't run without them. On Administrative Professionals Day, thank you to the One Health teams keeping everything moving. Explore roles: careers.dukehealth.org",
-      "Behind every smooth clinic day is an incredible administrative professional. Join our team: careers.dukehealth.org",
+      "Care doesn't run without them. On Administrative Professionals Day, thank you to the One Health teams keeping everything moving. Explore roles: careers.onehealth.org",
+      "Behind every smooth clinic day is an incredible administrative professional. Join our team: careers.onehealth.org",
     ],
   },
   {
@@ -235,8 +235,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Clinical Excellence & Gratitude",
     description: "Celebrate nurses — the heart of One Health.",
     contentTemplates: [
-      "It's National Nurses Week. To the nurses of One Health: your skill and heart change lives every shift. Thank you — and if you're a nurse looking for your next home, explore with us: careers.dukehealth.org/search-jobs/registered%20nurse",
-      "Nurses are the heartbeat of One Health. This Nurses Week, we celebrate you — and invite great nurses to join us: careers.dukehealth.org/search-jobs/registered%20nurse",
+      "It's National Nurses Week. To the nurses of One Health: your skill and heart change lives every shift. Thank you — and if you're a nurse looking for your next home, explore with us: careers.onehealth.org/search-jobs/registered%20nurse",
+      "Nurses are the heartbeat of One Health. This Nurses Week, we celebrate you — and invite great nurses to join us: careers.onehealth.org/search-jobs/registered%20nurse",
     ],
   },
   {
@@ -248,8 +248,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Family & Belonging",
     description: "Honor working parents and the families behind our teams.",
     contentTemplates: [
-      "This Mother's Day, we honor the moms on our teams who care for patients and family alike. One Health supports the people who do it all: careers.dukehealth.org",
-      "To every mother caring for others at One Health — thank you. Find a workplace that supports your whole life: careers.dukehealth.org",
+      "This Mother's Day, we honor the moms on our teams who care for patients and family alike. One Health supports the people who do it all: careers.onehealth.org",
+      "To every mother caring for others at One Health — thank you. Find a workplace that supports your whole life: careers.onehealth.org",
     ],
   },
   {
@@ -261,8 +261,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Psychological Safety & Wellbeing",
     description: "Reinforce psychological safety and wellbeing support.",
     contentTemplates: [
-      "This Mental Health Awareness Month, One Health is doubling down on wellbeing — because caring for others starts with caring for our teams. Join a workplace that has your back: careers.dukehealth.org",
-      "Your wellbeing matters here. Explore a culture built on psychological safety at One Health: careers.dukehealth.org",
+      "This Mental Health Awareness Month, One Health is doubling down on wellbeing — because caring for others starts with caring for our teams. Join a workplace that has your back: careers.onehealth.org",
+      "Your wellbeing matters here. Explore a culture built on psychological safety at One Health: careers.onehealth.org",
     ],
   },
   {
@@ -274,8 +274,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Honor, Sacrifice & Service",
     description: "Acknowledge service and sacrifice with a respectful brand presence.",
     contentTemplates: [
-      "This Memorial Day, One Health honors those who served. We remain grateful for the courage that protects our communities — and committed to compassionate care for veterans and families: careers.dukehealth.org",
-      "We remember and we honor. This Memorial Day, thank you to the families who gave so much: careers.dukehealth.org",
+      "This Memorial Day, One Health honors those who served. We remain grateful for the courage that protects our communities — and committed to compassionate care for veterans and families: careers.onehealth.org",
+      "We remember and we honor. This Memorial Day, thank you to the families who gave so much: careers.onehealth.org",
     ],
   },
   {
@@ -287,8 +287,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Authenticity, Belonging & Psychological Safety",
     description: "Champion authenticity, belonging, and psychological safety across teams.",
     contentTemplates: [
-      "Pride Month at One Health means authenticity and belonging every day — not just in June. Join teams where psychological safety helps people thrive and patients feel seen: careers.dukehealth.org",
-      "Bring your whole self to work. This Pride Month, celebrate a One Health culture where everyone belongs: careers.dukehealth.org",
+      "Pride Month at One Health means authenticity and belonging every day — not just in June. Join teams where psychological safety helps people thrive and patients feel seen: careers.onehealth.org",
+      "Bring your whole self to work. This Pride Month, celebrate a One Health culture where everyone belongs: careers.onehealth.org",
     ],
   },
   {
@@ -300,8 +300,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Freedom, Progress & Workplace Equity",
     description: "Recognize freedom, progress, and ongoing commitment to workplace equity.",
     contentTemplates: [
-      "On Juneteenth, One Health reflects on freedom, progress, and the work still ahead. We're building workplaces and care experiences grounded in equity for every team member and every patient: careers.dukehealth.org",
-      "Juneteenth is a celebration of freedom and a call to keep going. Join a One Health team committed to equity: careers.dukehealth.org",
+      "On Juneteenth, One Health reflects on freedom, progress, and the work still ahead. We're building workplaces and care experiences grounded in equity for every team member and every patient: careers.onehealth.org",
+      "Juneteenth is a celebration of freedom and a call to keep going. Join a One Health team committed to equity: careers.onehealth.org",
     ],
   },
   {
@@ -313,8 +313,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Family & Belonging",
     description: "Honor working fathers across the health system.",
     contentTemplates: [
-      "This Father's Day, we celebrate the dads on our teams balancing care at work and at home. One Health supports your whole life: careers.dukehealth.org",
-      "To the fathers caring for our patients and their own families — thank you. Grow your career with One Health: careers.dukehealth.org",
+      "This Father's Day, we celebrate the dads on our teams balancing care at work and at home. One Health supports your whole life: careers.onehealth.org",
+      "To the fathers caring for our patients and their own families — thank you. Grow your career with One Health: careers.onehealth.org",
     ],
   },
   {
@@ -326,8 +326,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Unity, Collaboration & Community",
     description: "Celebrate unity, collaboration, and community with a brand-forward post.",
     contentTemplates: [
-      "Happy Independence Day from One Health. Across clinics, hospitals, and communities, our teams collaborate to keep care close to home. Find your next role with purpose: careers.dukehealth.org",
-      "This Fourth of July, we're grateful for the teams who keep our communities cared for, even on the holidays. Join us: careers.dukehealth.org",
+      "Happy Independence Day from One Health. Across clinics, hospitals, and communities, our teams collaborate to keep care close to home. Find your next role with purpose: careers.onehealth.org",
+      "This Fourth of July, we're grateful for the teams who keep our communities cared for, even on the holidays. Join us: careers.onehealth.org",
     ],
   },
   {
@@ -339,8 +339,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Early Careers & Development",
     description: "Spotlight internships and early-career pathways.",
     contentTemplates: [
-      "This National Intern Day, we celebrate the students launching healthcare careers at One Health. Start yours with us: careers.dukehealth.org",
-      "Today's intern is tomorrow's leader. Explore early-career pathways at One Health: careers.dukehealth.org",
+      "This National Intern Day, we celebrate the students launching healthcare careers at One Health. Start yours with us: careers.onehealth.org",
+      "Today's intern is tomorrow's leader. Explore early-career pathways at One Health: careers.onehealth.org",
     ],
   },
   {
@@ -352,8 +352,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Skills & Development",
     description: "Highlight skills-building and training programs.",
     contentTemplates: [
-      "Skills change lives. This World Youth Skills Day, discover the training and development that launch careers at One Health: careers.dukehealth.org",
-      "We invest in potential. Explore skill-building roles and programs at One Health: careers.dukehealth.org",
+      "Skills change lives. This World Youth Skills Day, discover the training and development that launch careers at One Health: careers.onehealth.org",
+      "We invest in potential. Explore skill-building roles and programs at One Health: careers.onehealth.org",
     ],
   },
   {
@@ -365,8 +365,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Health & Wellbeing",
     description: "Promote wellbeing culture and benefits.",
     contentTemplates: [
-      "This National Wellness Month, One Health is prioritizing the wellbeing of the people who care for others. Explore a workplace that supports you: careers.dukehealth.org",
-      "Wellbeing isn't a perk, it's our culture. Join One Health this Wellness Month: careers.dukehealth.org",
+      "This National Wellness Month, One Health is prioritizing the wellbeing of the people who care for others. Explore a workplace that supports you: careers.onehealth.org",
+      "Wellbeing isn't a perk, it's our culture. Join One Health this Wellness Month: careers.onehealth.org",
     ],
   },
   {
@@ -378,8 +378,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Hard Work, Well-being & Work-Life Balance",
     description: "Recognize hard work while reinforcing well-being and sustainable careers.",
     contentTemplates: [
-      "This Labor Day, One Health celebrates the dedication behind every patient outcome — and the well-being that sustains it. Explore careers that value hard work and balance: careers.dukehealth.org",
-      "Hard work deserves real support. This Labor Day, discover a One Health career built to last: careers.dukehealth.org",
+      "This Labor Day, One Health celebrates the dedication behind every patient outcome — and the well-being that sustains it. Explore careers that value hard work and balance: careers.onehealth.org",
+      "Hard work deserves real support. This Labor Day, discover a One Health career built to last: careers.onehealth.org",
     ],
   },
   {
@@ -391,8 +391,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Psychological Safety",
     description: "Reinforce mental-health support and safe culture.",
     contentTemplates: [
-      "This Suicide Prevention Month, One Health stands for support, connection, and hope — for our patients and our teams. Join a workplace that cares: careers.dukehealth.org",
-      "You are not alone. This month and every month, One Health invests in mental-health support for our people: careers.dukehealth.org",
+      "This Suicide Prevention Month, One Health stands for support, connection, and hope — for our patients and our teams. Join a workplace that cares: careers.onehealth.org",
+      "You are not alone. This month and every month, One Health invests in mental-health support for our people: careers.onehealth.org",
     ],
   },
   {
@@ -404,8 +404,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Community & Representation",
     description: "Celebrate Hispanic and Latino contributions to care.",
     contentTemplates: [
-      "This Hispanic Heritage Month, One Health celebrates the Hispanic and Latino teammates enriching our care and culture. Join us: careers.dukehealth.org",
-      "Representation strengthens care. Celebrate Hispanic Heritage Month with a One Health team that reflects our communities: careers.dukehealth.org",
+      "This Hispanic Heritage Month, One Health celebrates the Hispanic and Latino teammates enriching our care and culture. Join us: careers.onehealth.org",
+      "Representation strengthens care. Celebrate Hispanic Heritage Month with a One Health team that reflects our communities: careers.onehealth.org",
     ],
   },
   {
@@ -417,8 +417,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Inclusion & Accessibility",
     description: "Champion accessible, inclusive hiring.",
     contentTemplates: [
-      "This National Disability Employment Awareness Month, One Health reaffirms our commitment to accessible, inclusive careers for all. Explore opportunities: careers.dukehealth.org",
-      "Inclusion means everyone. Discover an accessible workplace at One Health: careers.dukehealth.org",
+      "This National Disability Employment Awareness Month, One Health reaffirms our commitment to accessible, inclusive careers for all. Explore opportunities: careers.onehealth.org",
+      "Inclusion means everyone. Discover an accessible workplace at One Health: careers.onehealth.org",
     ],
   },
   {
@@ -430,8 +430,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Health & Compassion",
     description: "Connect oncology care and community support.",
     contentTemplates: [
-      "This Breast Cancer Awareness Month, we honor One Health's oncology teams and the patients they fight alongside. Join a team that cares deeply: careers.dukehealth.org",
-      "Early detection saves lives — and so do compassionate care teams. Explore oncology careers at One Health: careers.dukehealth.org",
+      "This Breast Cancer Awareness Month, we honor One Health's oncology teams and the patients they fight alongside. Join a team that cares deeply: careers.onehealth.org",
+      "Early detection saves lives — and so do compassionate care teams. Explore oncology careers at One Health: careers.onehealth.org",
     ],
   },
   {
@@ -443,8 +443,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Team Camaraderie",
     description: "Lighthearted culture moment showcasing team fun.",
     contentTemplates: [
-      "The only thing scary at One Health is how much fun our teams have together. Happy Halloween! Come join the crew: careers.dukehealth.org",
-      "Treats, team spirit, and great care. Happy Halloween from One Health — we're hiring: careers.dukehealth.org",
+      "The only thing scary at One Health is how much fun our teams have together. Happy Halloween! Come join the crew: careers.onehealth.org",
+      "Treats, team spirit, and great care. Happy Halloween from One Health — we're hiring: careers.onehealth.org",
     ],
   },
   {
@@ -456,8 +456,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Leadership, Resilience & Integrity",
     description: "Honor veteran leadership, resilience, and integrity on the care team.",
     contentTemplates: [
-      "On Veterans Day, One Health thanks the service members and veterans on our teams. Leadership, resilience, and integrity strengthen the care we deliver every day: careers.dukehealth.org",
-      "Veterans make exceptional caregivers. This Veterans Day, discover a One Health career that values your service: careers.dukehealth.org",
+      "On Veterans Day, One Health thanks the service members and veterans on our teams. Leadership, resilience, and integrity strengthen the care we deliver every day: careers.onehealth.org",
+      "Veterans make exceptional caregivers. This Veterans Day, discover a One Health career that values your service: careers.onehealth.org",
     ],
   },
   {
@@ -469,8 +469,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Community & Representation",
     description: "Celebrate Native American heritage and inclusive care.",
     contentTemplates: [
-      "This Native American Heritage Month, One Health honors the traditions, resilience, and contributions of Native communities and teammates. Join an inclusive team: careers.dukehealth.org",
-      "Care that respects every culture. Celebrate Native American Heritage Month with One Health: careers.dukehealth.org",
+      "This Native American Heritage Month, One Health honors the traditions, resilience, and contributions of Native communities and teammates. Join an inclusive team: careers.onehealth.org",
+      "Care that respects every culture. Celebrate Native American Heritage Month with One Health: careers.onehealth.org",
     ],
   },
   {
@@ -482,8 +482,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Gratitude, Teamwork & Partner Appreciation",
     description: "Express gratitude for teams, partners, and the communities One Health serves.",
     contentTemplates: [
-      "This Thanksgiving, One Health is grateful for the teams and partners who make excellent care possible. Thank you for the teamwork behind every moment that matters: careers.dukehealth.org",
-      "Grateful for our people, our patients, and our community. Happy Thanksgiving from One Health: careers.dukehealth.org",
+      "This Thanksgiving, One Health is grateful for the teams and partners who make excellent care possible. Thank you for the teamwork behind every moment that matters: careers.onehealth.org",
+      "Grateful for our people, our patients, and our community. Happy Thanksgiving from One Health: careers.onehealth.org",
     ],
   },
   {
@@ -495,8 +495,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Kindness & Compassion",
     description: "Reinforce compassion as a core value.",
     contentTemplates: [
-      "On World Kindness Day, we celebrate the compassion that defines One Health. Join a team where kindness is care: careers.dukehealth.org",
-      "Small kindnesses, big impact. Discover a workplace built on compassion at One Health: careers.dukehealth.org",
+      "On World Kindness Day, we celebrate the compassion that defines One Health. Join a team where kindness is care: careers.onehealth.org",
+      "Small kindnesses, big impact. Discover a workplace built on compassion at One Health: careers.onehealth.org",
     ],
   },
   {
@@ -508,8 +508,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Corporate Citizenship",
     description: "Celebrate volunteerism and giving back.",
     contentTemplates: [
-      "This International Volunteer Day, we celebrate One Health teammates who give back to our communities. Care that goes further: careers.dukehealth.org",
-      "Giving back is part of who we are. Join a One Health team that shows up for the community: careers.dukehealth.org",
+      "This International Volunteer Day, we celebrate One Health teammates who give back to our communities. Care that goes further: careers.onehealth.org",
+      "Giving back is part of who we are. Join a One Health team that shows up for the community: careers.onehealth.org",
     ],
   },
   {
@@ -521,8 +521,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Equity & Dignity",
     description: "Connect dignity and equity to care and hiring.",
     contentTemplates: [
-      "On Human Rights Day, One Health reaffirms that dignity and equity belong to everyone — patients and teammates alike. Join us: careers.dukehealth.org",
-      "Care is a human right. This Human Rights Day, build a career grounded in dignity at One Health: careers.dukehealth.org",
+      "On Human Rights Day, One Health reaffirms that dignity and equity belong to everyone — patients and teammates alike. Join us: careers.onehealth.org",
+      "Care is a human right. This Human Rights Day, build a career grounded in dignity at One Health: careers.onehealth.org",
     ],
   },
   {
@@ -534,8 +534,8 @@ export const culturalCalendarEvents: CulturalCalendarEvent[] = [
     corporateValue: "Reflection, Rejuvenation & Well-Deserved Rest",
     description: "Close the year with reflection, rejuvenation, and rest as brand themes.",
     contentTemplates: [
-      "As the year closes, One Health reflects on the care, discovery, and community impact our teams delivered — and prioritizes well-deserved rest. Start the next chapter with us: careers.dukehealth.org",
-      "Season's greetings from One Health. Grateful for a year of care, and excited for what's ahead. Explore your future with us: careers.dukehealth.org",
+      "As the year closes, One Health reflects on the care, discovery, and community impact our teams delivered — and prioritizes well-deserved rest. Start the next chapter with us: careers.onehealth.org",
+      "Season's greetings from One Health. Grateful for a year of care, and excited for what's ahead. Explore your future with us: careers.onehealth.org",
     ],
   },
 ];
@@ -657,14 +657,14 @@ const generateMediaListeningCards = (year: number): AdvisorCard[] => [
     date: mapToYear("05-19", year),
     title: "Forbes: Best Employers for New Grads",
     copy:
-      "Create an employer brand campaign for One Health inspired by Forbes naming One Health one of America's Best Employers for New Grads. Emphasize early-career growth, mentorship, learning, and patient impact. Target new graduates and early-career healthcare talent nationally with a warm, professional tone. Drive candidates to explore open roles at https://careers.dukehealth.org/search-jobs.",
+      "Create an employer brand campaign for One Health inspired by Forbes naming One Health one of America's Best Employers for New Grads. Emphasize early-career growth, mentorship, learning, and patient impact. Target new graduates and early-career healthcare talent nationally with a warm, professional tone. Drive candidates to explore open roles at https://careers.onehealth.org/search-jobs.",
     category: "Recognition",
     corporateValue: "Employer Brand & Early Careers",
     region: "National",
     aiExplanation:
       "Detected a positive award mention in Forbes via media listening. Awards carry strong trust signals for early-career candidates — recommended to amplify.",
     sourceLabel: "One Health Today",
-    sourceUrl: "https://today.duke.edu/",
+    sourceUrl: "https://today.onehealth.org/",
     suggestedCta: SEARCH_CTA,
   },
   {
@@ -675,14 +675,14 @@ const generateMediaListeningCards = (year: number): AdvisorCard[] => [
     date: mapToYear("03-18", year),
     title: "One Health raises minimum wage to $20/hr",
     copy:
-      "Create an employer brand campaign for One Health highlighting the announcement that the minimum wage was raised to $20/hour. Position this as a people-first investment in caregivers and support teams. Target qualified candidates in Durham, NC and surrounding markets with a warm, professional tone. Drive candidates to explore careers at https://careers.dukehealth.org/search-jobs.",
+      "Create an employer brand campaign for One Health highlighting the announcement that the minimum wage was raised to $20/hour. Position this as a people-first investment in caregivers and support teams. Target qualified candidates in Durham, NC and surrounding markets with a warm, professional tone. Drive candidates to explore careers at https://careers.onehealth.org/search-jobs.",
     category: "Culture",
     corporateValue: "People-First Culture",
     region: "Durham, NC",
     aiExplanation:
       "Positive PR announcement detected. Compensation news resonates with active and passive candidates — strong employer-brand signal.",
     sourceLabel: "One Health Corporate",
-    sourceUrl: "https://corporate.dukehealth.org/",
+    sourceUrl: "https://corporate.onehealth.org/",
     suggestedCta: SEARCH_CTA,
   },
   {
@@ -693,7 +693,7 @@ const generateMediaListeningCards = (year: number): AdvisorCard[] => [
     date: mapToYear("02-12", year),
     title: "$203M HomeGrown community initiative",
     copy:
-      "Create an employer brand campaign for One Health based on the $203 million HomeGrown initiative covering local opportunity, community health, and workforce pathways. Emphasize corporate citizenship and mission-driven careers. Target qualified candidates in Durham, NC with a warm, professional tone. CTA: https://careers.dukehealth.org/search-jobs.",
+      "Create an employer brand campaign for One Health based on the $203 million HomeGrown initiative covering local opportunity, community health, and workforce pathways. Emphasize corporate citizenship and mission-driven careers. Target qualified candidates in Durham, NC with a warm, professional tone. CTA: https://careers.onehealth.org/search-jobs.",
     category: "Community",
     corporateValue: "Corporate Citizenship",
     region: "Durham, NC",
@@ -711,7 +711,7 @@ const generateMediaListeningCards = (year: number): AdvisorCard[] => [
     date: mapToYear("06-03", year),
     title: "Recognized for workplace diversity",
     copy:
-      "Create an employer brand campaign for One Health celebrating recognition for workplace diversity. Emphasize belonging, inclusive hiring, and how diverse teams strengthen patient outcomes. Target diverse talent pools nationally with a warm, professional tone. Drive candidates to https://careers.dukehealth.org/search-jobs.",
+      "Create an employer brand campaign for One Health celebrating recognition for workplace diversity. Emphasize belonging, inclusive hiring, and how diverse teams strengthen patient outcomes. Target diverse talent pools nationally with a warm, professional tone. Drive candidates to https://careers.onehealth.org/search-jobs.",
     category: "DEI",
     corporateValue: "Diversity, Equity & Inclusion",
     region: "National",
@@ -729,7 +729,7 @@ const generateMediaListeningCards = (year: number): AdvisorCard[] => [
     date: mapToYear("04-22", year),
     title: "Nursing earns Magnet recognition",
     copy:
-      "Create an employer brand campaign for One Health Nursing celebrating Magnet-level recognition for care, leadership, and professional practice. Target experienced Registered Nurses in Durham, NC with a warm, professional tone that highlights excellence and growth. Drive candidates to https://careers.dukehealth.org/search-jobs/registered%20nurse.",
+      "Create an employer brand campaign for One Health Nursing celebrating Magnet-level recognition for care, leadership, and professional practice. Target experienced Registered Nurses in Durham, NC with a warm, professional tone that highlights excellence and growth. Drive candidates to https://careers.onehealth.org/search-jobs/registered%20nurse.",
     category: "Recognition",
     corporateValue: "Clinical Excellence",
     department: "Nursing",
@@ -738,7 +738,7 @@ const generateMediaListeningCards = (year: number): AdvisorCard[] => [
       "Magnet recognition coverage detected. Nursing excellence awards directly influence RN candidate decisions.",
     sourceLabel: "Nurse.org",
     sourceUrl: "https://nurse.org/",
-    suggestedCta: "https://careers.dukehealth.org/search-jobs/registered%20nurse",
+    suggestedCta: "https://careers.onehealth.org/search-jobs/registered%20nurse",
   },
 ];
 
@@ -759,7 +759,7 @@ const generateTestimonialCards = (year: number): AdvisorCard[] => [
     accent: "yellow",
     aiExplanation:
       "Detected a 5-year work anniversary in ERM data. Anniversary stories carry 10x the trust of a corporate post — recommend requesting a testimonial.",
-    suggestedCta: "https://careers.dukehealth.org/search-jobs/registered%20nurse",
+    suggestedCta: "https://careers.onehealth.org/search-jobs/registered%20nurse",
     campaignInfo: {
       template: "Milestone Spotlight",
       purpose: "Celebrate a 5-year work anniversary and encourage long-term candidates.",
@@ -781,7 +781,7 @@ const generateTestimonialCards = (year: number): AdvisorCard[] => [
     accent: "yellow",
     aiExplanation:
       "Detected a decline in application volume for a hiring shortage area. Local employee testimonials are the highest-converting response.",
-    suggestedCta: "https://careers.dukehealth.org/search-jobs/clinical",
+    suggestedCta: "https://careers.onehealth.org/search-jobs/clinical",
     campaignInfo: {
       template: "Team Spotlight",
       purpose: "Re-energize sourcing for Clinical Support roles in Raleigh with employee voices.",
@@ -803,7 +803,7 @@ const generateTestimonialCards = (year: number): AdvisorCard[] => [
     accent: "yellow",
     aiExplanation:
       "Detected an intern-to-full-time conversion in CRM data. Conversion stories validate early-career pipelines.",
-    suggestedCta: "https://careers.dukehealth.org/nursing/new-graduate-nurses",
+    suggestedCta: "https://careers.onehealth.org/nursing/new-graduate-nurses",
     campaignInfo: {
       template: "Career Pathway Story",
       purpose: "Showcase intern-to-full-time growth to attract new-grad nurses.",
@@ -825,13 +825,13 @@ const generateTestimonialCards = (year: number): AdvisorCard[] => [
     accent: "yellow",
     aiExplanation:
       "Detected certification milestones in ERM learning data. Development stories appeal to growth-minded candidates.",
-    suggestedCta: "https://careers.dukehealth.org/search-jobs",
+    suggestedCta: "https://careers.onehealth.org/search-jobs",
     campaignInfo: {
       template: "Learning Achievement",
       purpose: "Highlight professional development in Radiology.",
       recipients: [
-        "Elena Vasquez <elena.vasquez@dukehealth.org>",
-        "Chris Nguyen <chris.nguyen@dukehealth.org>",
+        "Elena Vasquez <elena.vasquez@onehealth.org>",
+        "Chris Nguyen <chris.nguyen@onehealth.org>",
       ],
       launchedAt: new Date().toISOString(),
       scriptQuestions: [
@@ -856,13 +856,13 @@ const generateTestimonialCards = (year: number): AdvisorCard[] => [
     accent: "yellow",
     aiExplanation:
       "Detected an internal award in recognition data. Videos are uploaded in Video Hub and ready for campaign configuration.",
-    suggestedCta: "https://careers.dukehealth.org/search-jobs/registered%20nurse",
+    suggestedCta: "https://careers.onehealth.org/search-jobs/registered%20nurse",
     campaignInfo: {
       template: "Recognition Spotlight",
       purpose: "Feature a DAISY Award winner to showcase compassionate culture.",
       recipients: [
-        "Aisha Rahman <aisha.rahman@dukehealth.org>",
-        "Jordan Blake <jordan.blake@dukehealth.org>",
+        "Aisha Rahman <aisha.rahman@onehealth.org>",
+        "Jordan Blake <jordan.blake@onehealth.org>",
       ],
       launchedAt: new Date(Date.now() - 86_400_000).toISOString(),
       uploadsCompletedAt: new Date(Date.now() - 3_600_000).toISOString(),
@@ -889,11 +889,11 @@ const generateTestimonialCards = (year: number): AdvisorCard[] => [
     accent: "yellow",
     aiExplanation:
       "Milestone detected from tenure data. A single Video Hub upload is ready — campaign uses this video only.",
-    suggestedCta: "https://careers.dukehealth.org/search-jobs/registered%20nurse",
+    suggestedCta: "https://careers.onehealth.org/search-jobs/registered%20nurse",
     campaignInfo: {
       template: "Anniversary Spotlight",
       purpose: "Feature a 5-year anniversary testimonial with a locked single video.",
-      recipients: ["Marcus Chen <marcus.chen@dukehealth.org>"],
+      recipients: ["Marcus Chen <marcus.chen@onehealth.org>"],
       launchedAt: new Date(Date.now() - 172_800_000).toISOString(),
       uploadsCompletedAt: new Date(Date.now() - 7_200_000).toISOString(),
       lockVideoSelection: true,

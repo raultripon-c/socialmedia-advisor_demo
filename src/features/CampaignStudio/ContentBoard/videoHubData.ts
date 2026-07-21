@@ -29,7 +29,7 @@ export const videoHubCatalog: VideoHubVideo[] = [
     durationLabel: "0:48",
     thumbnailUrl: marcusThumb,
     uploadedAt: "2026-07-18T14:20:00.000Z",
-    sourceRecipient: "Marcus Chen <marcus.chen@dukehealth.org>",
+    sourceRecipient: "Marcus Chen <marcus.chen@onehealth.org>",
   },
   {
     id: "vh-aisha-bedside",
@@ -39,7 +39,7 @@ export const videoHubCatalog: VideoHubVideo[] = [
     durationLabel: "1:05",
     thumbnailUrl: aishaThumb,
     uploadedAt: "2026-07-17T09:10:00.000Z",
-    sourceRecipient: "Aisha Rahman <aisha.rahman@dukehealth.org>",
+    sourceRecipient: "Aisha Rahman <aisha.rahman@onehealth.org>",
   },
   {
     id: "vh-priya-pathway",
@@ -49,7 +49,7 @@ export const videoHubCatalog: VideoHubVideo[] = [
     durationLabel: "0:56",
     thumbnailUrl: priyaThumb,
     uploadedAt: "2026-07-16T16:40:00.000Z",
-    sourceRecipient: "Priya Patel <priya.patel@dukehealth.org>",
+    sourceRecipient: "Priya Patel <priya.patel@onehealth.org>",
   },
   {
     id: "vh-elena-cert",
@@ -59,7 +59,7 @@ export const videoHubCatalog: VideoHubVideo[] = [
     durationLabel: "0:39",
     thumbnailUrl: elenaThumb,
     uploadedAt: "2026-07-15T11:05:00.000Z",
-    sourceRecipient: "Elena Vasquez <elena.vasquez@dukehealth.org>",
+    sourceRecipient: "Elena Vasquez <elena.vasquez@onehealth.org>",
   },
   {
     id: "vh-jordan-team",
@@ -69,7 +69,7 @@ export const videoHubCatalog: VideoHubVideo[] = [
     durationLabel: "0:44",
     thumbnailUrl: jordanThumb,
     uploadedAt: "2026-07-14T13:25:00.000Z",
-    sourceRecipient: "Jordan Blake <jordan.blake@dukehealth.org>",
+    sourceRecipient: "Jordan Blake <jordan.blake@onehealth.org>",
   },
   {
     id: "vh-sam-clinical",
@@ -79,7 +79,7 @@ export const videoHubCatalog: VideoHubVideo[] = [
     durationLabel: "1:12",
     thumbnailUrl: samThumb,
     uploadedAt: "2026-07-12T08:50:00.000Z",
-    sourceRecipient: "Sam Okonkwo <sam.okonkwo@dukehealth.org>",
+    sourceRecipient: "Sam Okonkwo <sam.okonkwo@onehealth.org>",
   },
   {
     id: "vh-taylor-pharmacy",
@@ -89,7 +89,7 @@ export const videoHubCatalog: VideoHubVideo[] = [
     durationLabel: "0:51",
     thumbnailUrl: taylorThumb,
     uploadedAt: "2026-07-10T15:15:00.000Z",
-    sourceRecipient: "Taylor Brooks <taylor.brooks@dukehealth.org>",
+    sourceRecipient: "Taylor Brooks <taylor.brooks@onehealth.org>",
   },
   {
     id: "vh-harper-talent",
@@ -99,7 +99,7 @@ export const videoHubCatalog: VideoHubVideo[] = [
     durationLabel: "0:47",
     thumbnailUrl: harperThumb,
     uploadedAt: "2026-07-08T10:30:00.000Z",
-    sourceRecipient: "Harper Diaz <harper.diaz@dukehealth.org>",
+    sourceRecipient: "Harper Diaz <harper.diaz@onehealth.org>",
   },
 ];
 

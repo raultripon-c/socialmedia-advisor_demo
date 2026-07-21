@@ -173,7 +173,7 @@ const platformSourceMap: Record<CampaignPlatformName, string> = {
 const toTrackingValue = (value: string) => value.trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
 export const buildChannelUtmLink = (destination: string, platform: CampaignPlatformName, campaignId: string) => {
-  const fallbackDestination = `https://careers.dukehealth.org/jobs?campaign=${encodeURIComponent(campaignId)}`;
+  const fallbackDestination = `https://careers.onehealth.org/jobs?campaign=${encodeURIComponent(campaignId)}`;
 
   try {
     const url = new URL(destination || fallbackDestination);
@@ -214,7 +214,7 @@ export const createCampaignFromBrief = (
   const id = campaignId || `campaign-${Date.now()}`;
   const tenantName = getSelectedTenantName();
   const employerName = tenantName === "Phenom" ? "One Health" : tenantName;
-  const ctaDestination = selectedCtaDestination || `https://careers.dukehealth.org/jobs?campaign=${id}`;
+  const ctaDestination = selectedCtaDestination || `https://careers.onehealth.org/jobs?campaign=${id}`;
   const mediaImages = options?.mediaImages?.filter(Boolean) || [];
 
   const platforms = selectedChannels.map((platform, index) => {
@@ -301,7 +301,7 @@ const demoCampaigns = (): Campaign[] => {
           "Healthcare Hiring Campaign",
           toneOptions[0],
           daysFromNow(0),
-          "https://careers.dukehealth.org/search-jobs/registered%20nurse",
+          "https://careers.onehealth.org/search-jobs/registered%20nurse",
           "demo-campaign-1",
           daysFromNow(-8)
         ),
@@ -321,7 +321,7 @@ const demoCampaigns = (): Campaign[] => {
           "Multi-Role Clinical Hiring Campaign",
           toneOptions[3],
           daysFromNow(5),
-          "https://careers.dukehealth.org/search-jobs/clinical",
+          "https://careers.onehealth.org/search-jobs/clinical",
           "demo-campaign-2",
           daysFromNow(-2)
         ),
@@ -341,7 +341,7 @@ const demoCampaigns = (): Campaign[] => {
           "Nursing Event RSVP Campaign",
           toneOptions[2],
           daysFromNow(-7),
-          "https://careers.dukehealth.org/events/duke-health-nursing-hiring-event",
+          "https://careers.onehealth.org/events/one-health-nursing-hiring-event",
           "demo-campaign-3",
           daysFromNow(-20)
         ),
@@ -363,7 +363,7 @@ const demoCampaigns = (): Campaign[] => {
             "Patient Care Technician Launch",
             toneOptions[0],
             daysFromNow(3),
-            "https://careers.dukehealth.org/search-jobs/patient%20care%20technician",
+            "https://careers.onehealth.org/search-jobs/patient%20care%20technician",
             "demo-campaign-4",
             daysFromNow(0)
           ),
@@ -380,7 +380,7 @@ const demoCampaigns = (): Campaign[] => {
         "Pharmacy Technician Draft",
         toneOptions[1],
         daysFromNow(10),
-        "https://careers.dukehealth.org/search-jobs/pharmacy%20technician",
+        "https://careers.onehealth.org/search-jobs/pharmacy%20technician",
         "demo-campaign-5",
         daysFromNow(0)
       ),
@@ -392,7 +392,7 @@ const demoCampaigns = (): Campaign[] => {
         "Pharmacy Technician Draft",
         toneOptions[1],
         daysFromNow(10),
-        "https://careers.dukehealth.org/search-jobs/pharmacy%20technician",
+        "https://careers.onehealth.org/search-jobs/pharmacy%20technician",
         "demo-campaign-5",
         daysFromNow(0)
       ).platforms.map((platform) => ({ ...platform, metrics: { clicks: 0, applicationStarts: 0, applications: 0 } })),

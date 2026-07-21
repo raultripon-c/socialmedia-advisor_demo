@@ -31,7 +31,7 @@ import linkedinLogo from "../../assets/svg/social/linkedin-logo.svg";
 import instagramLogo from "../../assets/svg/social/instagram-logo.svg";
 import facebookLogo from "../../assets/svg/social/facebook-logo.svg";
 import xLogo from "../../assets/svg/social/x-logo.svg";
-import dukeHealthLogo from "../../assets/campaign-studio/duke-health-logo-avatar.png";
+import oneHealthLogo from "../../assets/campaign-studio/one-health-logo-avatar.png";
 import facebookLifestyleImage from "../../assets/campaign-studio/reference/facebook-nursing-lifestyle.png";
 import instagramLifestyleImage from "../../assets/campaign-studio/reference/instagram-nursing-lifestyle.png";
 import linkedinLifestyleImage from "../../assets/campaign-studio/reference/linkedin-nursing-lifestyle.png";
@@ -118,35 +118,35 @@ const getOrderedCampaignPlatforms = (platforms: CampaignPlatformOutput[]) =>
 const cmsDestinationPages = [
   {
     label: "One Health homepage",
-    value: "https://www.dukehealth.org/",
+    value: "https://www.onehealth.org/",
     subpages: [
-      { label: "Find a doctor", value: "https://www.dukehealth.org/find-doctors-physicians" },
-      { label: "Locations", value: "https://www.dukehealth.org/locations" },
+      { label: "Find a doctor", value: "https://www.onehealth.org/find-doctors-physicians" },
+      { label: "Locations", value: "https://www.onehealth.org/locations" },
     ],
   },
   {
     label: "Careers homepage",
-    value: "https://careers.dukehealth.org/",
+    value: "https://careers.onehealth.org/",
     subpages: [
-      { label: "Nursing careers", value: "https://careers.dukehealth.org/nursing" },
-      { label: "Benefits and culture", value: "https://careers.dukehealth.org/benefits" },
-      { label: "All open jobs", value: "https://careers.dukehealth.org/search-jobs" },
+      { label: "Nursing careers", value: "https://careers.onehealth.org/nursing" },
+      { label: "Benefits and culture", value: "https://careers.onehealth.org/benefits" },
+      { label: "All open jobs", value: "https://careers.onehealth.org/search-jobs" },
     ],
   },
   {
     label: "Nursing careers",
-    value: "https://careers.dukehealth.org/nursing",
+    value: "https://careers.onehealth.org/nursing",
     subpages: [
-      { label: "Registered Nurse jobs", value: "https://careers.dukehealth.org/search-jobs/registered%20nurse" },
-      { label: "New graduate nurses", value: "https://careers.dukehealth.org/nursing/new-graduate-nurses" },
+      { label: "Registered Nurse jobs", value: "https://careers.onehealth.org/search-jobs/registered%20nurse" },
+      { label: "New graduate nurses", value: "https://careers.onehealth.org/nursing/new-graduate-nurses" },
     ],
   },
   {
     label: "Benefits and culture",
-    value: "https://careers.dukehealth.org/benefits",
+    value: "https://careers.onehealth.org/benefits",
     subpages: [
-      { label: "Diversity and inclusion", value: "https://careers.dukehealth.org/diversity-and-inclusion" },
-      { label: "Career areas", value: "https://careers.dukehealth.org/career-areas" },
+      { label: "Diversity and inclusion", value: "https://careers.onehealth.org/diversity-and-inclusion" },
+      { label: "Career areas", value: "https://careers.onehealth.org/career-areas" },
     ],
   },
 ];
@@ -161,9 +161,9 @@ const ctaPersonaOptions = [
   { label: "Clinical talent", value: "clinical" },
 ];
 const ctaJobOptions = [
-  { label: "Registered Nurse, PICU", value: "https://careers.dukehealth.org/job/durham/registered-nurse-picu/38342/64290942096" },
-  { label: "Nurse Practitioner", value: "https://careers.dukehealth.org/job/durham/nurse-practitioner/38342/64290942112" },
-  { label: "Medical Assistant", value: "https://careers.dukehealth.org/job/durham/medical-assistant/38342/64290942128" },
+  { label: "Registered Nurse, PICU", value: "https://careers.onehealth.org/job/durham/registered-nurse-picu/38342/64290942096" },
+  { label: "Nurse Practitioner", value: "https://careers.onehealth.org/job/durham/nurse-practitioner/38342/64290942112" },
+  { label: "Medical Assistant", value: "https://careers.onehealth.org/job/durham/medical-assistant/38342/64290942128" },
 ];
 
 const getCmsDestinationMatch = (destination: string) => {
@@ -956,7 +956,7 @@ const eventOptions = [
 ];
 const ctaEventOptions = eventOptions.map((eventName) => ({
   label: eventName,
-  value: `https://careers.dukehealth.org/events/${eventName.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`,
+  value: `https://careers.onehealth.org/events/${eventName.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`,
 }));
 
 type DropdownOption = { value: string; label: string };
@@ -2285,7 +2285,7 @@ const PostPreview = ({
         {onEdit && <button className="cs-post__edit" onClick={() => onEdit(post)}>Edit</button>}
         {assetActions}
         <div className="cs-linkedin-post__header">
-          <img className="cs-linkedin-post__avatar" src={dukeHealthLogo} alt={`${tenantName} logo`} />
+          <img className="cs-linkedin-post__avatar" src={oneHealthLogo} alt={`${tenantName} logo`} />
           <div>
             <strong>{tenantName}</strong>
             <small>2,223,144 followers</small>
@@ -2323,7 +2323,7 @@ const PostPreview = ({
         {onEdit && <button className="cs-post__edit" onClick={() => onEdit(post)}>Edit</button>}
         {assetActions}
         <div className="cs-instagram-post__header">
-          <img className="cs-instagram-post__avatar" src={dukeHealthLogo} alt={`${tenantName} logo`} />
+          <img className="cs-instagram-post__avatar" src={oneHealthLogo} alt={`${tenantName} logo`} />
           <div>
             <strong>{instagramName}</strong>
             <small>{isVideoMedia ? "Reel · Sponsored" : "Sponsored campaign"}</small>
@@ -2356,7 +2356,7 @@ const PostPreview = ({
         {onEdit && <button className="cs-post__edit" onClick={() => onEdit(post)}>Edit</button>}
         {assetActions}
         <div className="cs-facebook-post__header">
-          <img className="cs-facebook-post__avatar" src={dukeHealthLogo} alt={`${tenantName} logo`} />
+          <img className="cs-facebook-post__avatar" src={oneHealthLogo} alt={`${tenantName} logo`} />
           <div>
             <strong>{tenantName}</strong>
             <small>Sponsored · <span aria-hidden="true">🌐</span></small>
@@ -2367,7 +2367,7 @@ const PostPreview = ({
         {!isVideoMedia && (
           <div className="cs-facebook-post__link">
             <span className="cs-facebook-post__domain">
-              <img src={dukeHealthLogo} alt="" />
+              <img src={oneHealthLogo} alt="" />
               {new URL(post.ctaDestination).hostname.toUpperCase()}
             </span>
             <strong>Your next career move starts here.</strong>
@@ -2402,7 +2402,7 @@ const PostPreview = ({
         {onEdit && <button className="cs-post__edit" onClick={() => onEdit(post)}>Edit</button>}
         {assetActions}
         <div className="cs-x-post__header">
-          <img className="cs-x-post__avatar" src={dukeHealthLogo} alt={`${tenantName} logo`} />
+          <img className="cs-x-post__avatar" src={oneHealthLogo} alt={`${tenantName} logo`} />
           <div>
             <strong>
               {tenantName}
@@ -2439,7 +2439,7 @@ const PostPreview = ({
       {onEdit && <button className="cs-post__edit" onClick={() => onEdit(post)}>Edit</button>}
       {assetActions}
       <div className="cs-post__head">
-        <img className="cs-post__avatar" src={dukeHealthLogo} alt={`${tenantName} logo`} />
+        <img className="cs-post__avatar" src={oneHealthLogo} alt={`${tenantName} logo`} />
         <div>
           <strong>{tenantName}</strong>
           <small>{handle}</small>

@@ -10,7 +10,7 @@ import { DemoShell } from "./shell/DemoShell";
 
 const seedDemoTenant = () => {
   const tenant = {
-    customerCode: "duke",
+    customerCode: "onehealth",
     refNum: "demo",
     tenantName: "One Health",
     customerName: "One Health",

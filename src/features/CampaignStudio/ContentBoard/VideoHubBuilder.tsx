@@ -25,18 +25,18 @@ const defaultScriptQuestions = [
 
 /** Demo directory for bulk / department recipient picks (static MVP data). */
 const employeeDirectory: { name: string; email: string; department: string }[] = [
-  { name: "Marcus Chen", email: "marcus.chen@dukehealth.org", department: "Nursing" },
-  { name: "Aisha Rahman", email: "aisha.rahman@dukehealth.org", department: "Nursing" },
-  { name: "Jordan Blake", email: "jordan.blake@dukehealth.org", department: "Nursing" },
-  { name: "Priya Patel", email: "priya.patel@dukehealth.org", department: "Clinical Support" },
-  { name: "Sam Okonkwo", email: "sam.okonkwo@dukehealth.org", department: "Clinical Support" },
-  { name: "Elena Vasquez", email: "elena.vasquez@dukehealth.org", department: "Radiology" },
-  { name: "Chris Nguyen", email: "chris.nguyen@dukehealth.org", department: "Radiology" },
-  { name: "Taylor Brooks", email: "taylor.brooks@dukehealth.org", department: "Pharmacy" },
-  { name: "Morgan Ellis", email: "morgan.ellis@dukehealth.org", department: "Pharmacy" },
-  { name: "Riley Santos", email: "riley.santos@dukehealth.org", department: "IT & Digital" },
-  { name: "Casey Kim", email: "casey.kim@dukehealth.org", department: "IT & Digital" },
-  { name: "Harper Diaz", email: "harper.diaz@dukehealth.org", department: "HR & Talent" },
+  { name: "Marcus Chen", email: "marcus.chen@onehealth.org", department: "Nursing" },
+  { name: "Aisha Rahman", email: "aisha.rahman@onehealth.org", department: "Nursing" },
+  { name: "Jordan Blake", email: "jordan.blake@onehealth.org", department: "Nursing" },
+  { name: "Priya Patel", email: "priya.patel@onehealth.org", department: "Clinical Support" },
+  { name: "Sam Okonkwo", email: "sam.okonkwo@onehealth.org", department: "Clinical Support" },
+  { name: "Elena Vasquez", email: "elena.vasquez@onehealth.org", department: "Radiology" },
+  { name: "Chris Nguyen", email: "chris.nguyen@onehealth.org", department: "Radiology" },
+  { name: "Taylor Brooks", email: "taylor.brooks@onehealth.org", department: "Pharmacy" },
+  { name: "Morgan Ellis", email: "morgan.ellis@onehealth.org", department: "Pharmacy" },
+  { name: "Riley Santos", email: "riley.santos@onehealth.org", department: "IT & Digital" },
+  { name: "Casey Kim", email: "casey.kim@onehealth.org", department: "IT & Digital" },
+  { name: "Harper Diaz", email: "harper.diaz@onehealth.org", department: "HR & Talent" },
 ];
 
 const departmentOptions = Array.from(new Set(employeeDirectory.map((person) => person.department))).sort();

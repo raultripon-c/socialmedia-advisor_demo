@@ -1,0 +1,251 @@
+:root {
+  --family-body: "Poppins", system-ui, sans-serif;
+  --grays-grgr-25: #f7f8fa;
+  --neutrals-nn-50: #e8eaee;
+  --neutrals-nn-75: #d1d5dc;
+  --neutrals-nn-100: #b3bac7;
+  --neutrals-nn-200: #8c95a8;
+  --neutrals-nn-300: #637085;
+  --neutrals-nn-400: #464f5e;
+  --neutrals-nn-500: #353b46;
+  --secondary-blue-bb-200: #4d3ee0;
+  --cs-brand: #2927b2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: var(--family-body);
+  color: var(--neutrals-nn-500);
+  background: #f3f4f7;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+a {
+  font-family: inherit;
+}
+
+.demo-shell {
+  display: grid;
+  grid-template-columns: 248px minmax(0, 1fr);
+  min-height: 100%;
+  height: 100%;
+  background: #f3f4f7;
+}
+
+.demo-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px 12px 20px;
+  background: #fff;
+  border-right: 1px solid #e6e9ef;
+  overflow: auto;
+}
+
+.demo-sidebar__brand {
+  display: flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 4px 8px 8px;
+}
+
+.demo-sidebar__brand img {
+  height: 22px;
+  width: auto;
+}
+
+.demo-sidebar__search {
+  margin: 0 4px 4px;
+  padding: 10px 12px;
+  border: 1px solid #e6e9ef;
+  border-radius: 8px;
+  color: #8c95a8;
+  font-size: 12px;
+  background: #fafbfc;
+  pointer-events: none;
+  user-select: none;
+}
+
+.demo-sidebar__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.demo-nav-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 36px;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: #464f5e;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: left;
+  text-decoration: none;
+  cursor: default;
+  opacity: 0.72;
+}
+
+.demo-nav-item--parent {
+  justify-content: space-between;
+  font-weight: 600;
+  opacity: 0.85;
+}
+
+.demo-nav-item--parent::after {
+  content: "▾";
+  color: #8c95a8;
+  font-size: 10px;
+}
+
+.demo-nav-item--parent.is-open::after {
+  content: "▴";
+}
+
+.demo-nav-item--child {
+  padding-left: 24px;
+  font-weight: 500;
+}
+
+.demo-nav-children {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 4px;
+}
+
+.demo-nav-children.is-collapsed {
+  display: none;
+}
+
+.demo-nav-item--live {
+  position: relative;
+  opacity: 1;
+  cursor: pointer;
+  color: #2927b2;
+  font-weight: 600;
+}
+
+.demo-nav-item--live.is-active {
+  background: #eef0ff;
+}
+
+.demo-nav-item--live.is-active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  bottom: 8px;
+  width: 3px;
+  border-radius: 0 2px 2px 0;
+  background: #2927b2;
+}
+
+.demo-nav-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.demo-main {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+}
+
+.demo-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 56px;
+  padding: 0 24px;
+  background: #fff;
+  border-bottom: 1px solid #e6e9ef;
+}
+
+.demo-topbar__left {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.demo-topbar__crumb {
+  color: #8c95a8;
+  font-size: 13px;
+}
+
+.demo-topbar__sep {
+  color: #b3bac7;
+  font-size: 14px;
+}
+
+.demo-topbar__app {
+  color: #181d27;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.demo-topbar__right {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.demo-topbar__tenant {
+  color: #464f5e;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.demo-topbar__avatar {
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 999px;
+  background: #2927b2;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: default;
+  opacity: 0.9;
+}
+
+.demo-content {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  padding: 0;
+}
+
+.demo-content .campaign-studio,
+.demo-content .content-board {
+  min-height: calc(100vh - 56px);
+}
+
+@media (max-width: 900px) {
+  .demo-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .demo-sidebar {
+    display: none;
+  }
+}

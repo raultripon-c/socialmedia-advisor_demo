@@ -2,6 +2,8 @@
 
 Standalone demo of the **Social Media Advisor** flows extracted from `txe-ui`.
 
+**Live preview:** [https://raultripon-c.github.io/socialmedia-advisor_demo/](https://raultripon-c.github.io/socialmedia-advisor_demo/)
+
 ## Run
 
 ```bash

@@ -39,9 +39,15 @@
   justify-content: space-between;
   gap: 6px;
   width: 100%;
+  min-width: 0;
 }
 
 .cb-card__type {
+  flex-shrink: 0;
+  max-width: 45%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   font-size: 9px;
   font-weight: 600;
   letter-spacing: 0.02em;
@@ -218,6 +224,8 @@
   display: flex;
   flex-direction: column;
   gap: 6px;
+  min-width: 0;
+  width: 100%;
 }
 
 /* Skeleton */
@@ -952,11 +960,13 @@
 }
 
 .cb-month-cell {
+  min-width: 0;
   min-height: 128px;
   padding: 8px;
   border: 1px solid var(--neutrals-nn-75, #d1d5dc);
   border-radius: 8px;
   background: #fff;
+  overflow: hidden;
 }
 
 .cb-month-cell.is-outside {
@@ -984,11 +994,13 @@
 }
 
 .cb-week-cell {
+  min-width: 0;
   min-height: 280px;
   padding: 10px;
   border: 1px solid var(--neutrals-nn-75, #d1d5dc);
   border-radius: 10px;
   background: #fff;
+  overflow: hidden;
 }
 
 .cb-week-cell__date {
@@ -1022,10 +1034,12 @@
 }
 
 .cb-quarter-month {
+  min-width: 0;
   padding: 14px;
   border: 1px solid var(--neutrals-nn-75, #d1d5dc);
   border-radius: 10px;
   background: #f8f9fb;
+  overflow: hidden;
 }
 
 .cb-quarter-month h4 {
@@ -1058,13 +1072,17 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
+  box-sizing: border-box;
   width: 100%;
+  max-width: 100%;
+  min-width: 0;
   padding: 8px;
   border-radius: 8px;
   border: 1px solid transparent;
   text-align: left;
   cursor: pointer;
   font-family: var(--family-body, Poppins), system-ui, sans-serif;
+  overflow: hidden;
 }
 
 .cb-card--compact {
@@ -1097,6 +1115,11 @@
 }
 
 .cb-card__badge {
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.02em;
@@ -1104,13 +1127,18 @@
 }
 
 .cb-card__title {
+  max-width: 100%;
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
   color: inherit;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  white-space: normal;
 }
 
 .cb-card__subtitle {
+  max-width: 100%;
   font-size: 11px;
   font-weight: 400;
   line-height: 15px;
@@ -1120,6 +1148,9 @@
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  white-space: normal;
 }
 
 .cb-drawer-backdrop {
